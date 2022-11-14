@@ -4,3 +4,135 @@ body {
     margin: 0;
     padding: 0;
 }
+
+nav {
+    background-color: lightblue;
+}
+
+.nav {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.nav-box {
+    background-color: goldenrod;
+    border-style: dashed;
+    border-color: black;
+    height: 70%;
+    
+}
+
+.logo {
+    width: 25%;
+}
+
+.link {
+    width: 50%;
+}
+
+.login {
+    width: 25%;
+}
+
+.header-main {
+    background-color: darkblue;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    background-color: purple;
+    width: 50%;
+    margin: 0 auto;
+    height: 80%;
+    border-style: dashed;
+
+}
+
+.container-flex {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 {
+    background-color: cornflowerblue;
+    height: 80%;
+    width: 50%;
+    border-style: dashed;
+    border-color: black;
+}
+
+.content2 {
+    background-color: pink;
+    height: 80%;
+    width: 30%;
+    border-style: dashed;
+    border-color: black;
+}
+
+.gray {
+      background-color: lightgray;
+      height: 600px;
+}
+
+.content3 {
+    background-color: green;
+    height: 500px;
+    width: 80%;
+    border-style: dashed;
+    border-color: black;
+}
+
+.section1 {
+    background-color: black;
+    height: 500px;
+}
+
+.footer-section {
+    background-color: aquamarine;
+    display: flex;
+    width: calc(60% / 4);
+    height: 400px;
+    border-style: dashed;
+}
+
+.special-section {
+    background-color: pink;
+    display: flex;
+    width: 20%;
+    height: 400px;
+    border-style: dashed;
+}
+
+.section2 {
+    background-color: black;
+    display: flex;
+    height: 150px;
+    margin-top: 2px;
+    align-items: center;
+}
+
+.info-footer {
+    background-color: bisque;
+    border-style: dashed;
+    justify-content: space-around;
+
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    margin: 0 auto;
+}
